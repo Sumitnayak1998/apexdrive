@@ -8,6 +8,7 @@ import HowItWorks from './components/HowItWorks';
 import StayConnected from './components/StayConnected';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Features />
         <Vehicles />
         <HowItWorks />
+        <Testimonials />
         <StayConnected />
         <Contact />
       </main>

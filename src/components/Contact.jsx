@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, ArrowRight } from 'lucide-react';
+import { MessageCircle, ArrowRight } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -28,15 +28,15 @@ const Contact = () => {
           </h2>
           
           <p className="text-lg text-slate-600 mb-10 max-w-2xl mx-auto font-medium">
-            Experience the freedom of reliable car rentals. Drop us an email to book with ApexDrive and transform your next trip today.
+            Experience the freedom of reliable car rentals. Connect with our Telegram assistant to book with ApexDrive and transform your next trip today.
           </p>
 
           <a 
-            href="mailto:sumitkr07.nayak@gmail.com"
-            className="inline-flex items-center gap-3 px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-bold text-lg transition-all shadow-lg shadow-blue-600/30 hover:shadow-xl hover:shadow-blue-600/40 hover:-translate-y-1 group"
+            href="#connected"
+            className="inline-flex items-center gap-3 px-8 py-4 bg-sky-500 hover:bg-sky-400 text-white rounded-full font-bold text-lg transition-all shadow-lg shadow-sky-500/30 hover:shadow-xl hover:shadow-sky-500/40 hover:-translate-y-1 group"
           >
-            <Mail className="w-5 h-5" />
-            sumitkr07.nayak@gmail.com
+            <MessageCircle className="w-5 h-5" />
+            Book via Telegram
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </motion.div>

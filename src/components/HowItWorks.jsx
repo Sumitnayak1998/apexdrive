@@ -6,22 +6,22 @@ const HowItWorks = () => {
     {
       num: "01",
       title: "Choose Your Car",
-      desc: "Browse our extensive fleet and select the vehicle that perfectly matches your travel needs and preferences."
+      desc: "Browse our extensive premium fleet and select the vehicle that perfectly matches your travel needs."
     },
     {
       num: "02",
-      title: "Select Rental Dates",
-      desc: "Pick your required pickup and drop-off dates, along with any additional accessories like GPS or child seats."
+      title: "Fill Your Details",
+      desc: "Enter your name, email, and Telegram number in our quick and secure contact form below."
     },
     {
       num: "03",
-      title: "Confirm Booking",
-      desc: "Review your transparent pricing quote and securely finalize your reservation online in minutes."
+      title: "Start Chat",
+      desc: "Click the 'Start Chat' button to securely connect with our automated AI booking assistant."
     },
     {
       num: "04",
-      title: "Pick Up & Drive",
-      desc: "Collect your keys from our location or have the car delivered to you. Start your journey hassle-free!"
+      title: "Finalize on Telegram",
+      desc: "Complete your reservation instantly through our Telegram bot and get ready to hit the road!"
     }
   ];
 
